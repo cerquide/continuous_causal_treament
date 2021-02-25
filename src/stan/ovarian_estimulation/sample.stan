@@ -28,8 +28,6 @@ generated quantities {
       real mu = max_oocytes*x[i];
       //y[i] = normal_rng(mu, 0.3*mu); // Use next line to get integer results
       y[i] = floor(normal_rng(mu, 0.3*mu)); 
-      // y[i] = floor(normal_rng(50*(x[i])*(x[i])*t[i], 5));
-      //y[i] = normal_rng(50*(x[i])*(x[i])*t[i], 5);
       }
   }
 }
