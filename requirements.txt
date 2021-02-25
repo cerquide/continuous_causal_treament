@@ -1,0 +1,8 @@
+jupyterlab
+cmdstanpy
+tqdm
+#tqdm_notebook
+matplotlib
+ipywidgets
+scikit-learn
+seaborn
